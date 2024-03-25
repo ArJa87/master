@@ -15,5 +15,5 @@ const assemble = (arr) => {
     return arr
 };
 assemble(userDragon);
-console.log(userDragon.join(' '));
-//console.log(generateRamdonNumber(5));
+let finalName = userDragon.join(' ');
+console.log(`For now on you shall be know as "${finalName}" may your friends respect you and your enemies fear you`);
